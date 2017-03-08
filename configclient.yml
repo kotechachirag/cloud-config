@@ -13,3 +13,12 @@
     port: 8001
   message:
     greeting: Hello from the configuration dev!
+---
+  spring:
+    profiles: qa
+  configuration:  
+    projectName: configclient
+  server:
+    port: 8002
+  message:
+    greeting: Hello from the configuration qa!
