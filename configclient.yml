@@ -4,3 +4,12 @@
     port: 8000
   message:
     greeting: Hello from the configuration!
+---
+  spring:
+    profiles: dev
+  configuration:  
+    projectName: configclient
+  server:
+    port: 8001
+  message:
+    greeting: Hello from the configuration dev!
